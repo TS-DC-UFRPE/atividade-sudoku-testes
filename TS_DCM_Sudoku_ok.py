@@ -1,3 +1,14 @@
+"""
+Classe feita pelo Chat GPT, com os seguintes inputs:
+(Input das regras 2 e 3 da atividade)
+
+Certo, vamos por partes, o que eu preciso fazer, por onde começar? e eu vou usar o python em vez do Java, usando o pytest, coverage etc. 
+Eu devo fazer essa atividade no meu vscode ou no minizinc? Esse sudoku o minizinc vai gerar? e eu tenho que resolver com testes no python? 
+ou eu tenho que gerar outro sudoku? Me lembro do professor usando alguma parte no propio site do minizinc e em que o out do sudoku ficava com algumas partes em vermelho caso falhasse algo.
+
+Certo. Agora proximo passo eu preciso criar uma classe?
+"""
+
 class SudokuOk:
     def __init__(self, pathTxt):
         self.tabuleiro = []
