@@ -1,4 +1,5 @@
-"""
+class SudokuOk:
+    """
 Classe feita pelo Chat GPT, com os seguintes inputs:
 (Input das regras 2 e 3 da atividade)
 
@@ -8,8 +9,6 @@ ou eu tenho que gerar outro sudoku? Me lembro do professor usando alguma parte n
 
 Certo. Agora proximo passo eu preciso criar uma classe?
 """
-
-class SudokuOk:
     def __init__(self, pathTxt):
         self.tabuleiro = []
         with open(pathTxt, "r") as arquivoTxt:
